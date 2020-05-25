@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="751.0" prefWidth="548.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainPageController">
+   <children>
+      <Button fx:id="btnA" layoutX="114.0" layoutY="121.0" mnemonicParsing="false"  onAction="#buttonClickedA" prefHeight="52.0" prefWidth="73.0" text="A" />
+      <Button fx:id="btnB" layoutX="191.0" layoutY="121.0" mnemonicParsing="false" onAction="#buttonClickedB" prefHeight="52.0" prefWidth="73.0" text="B" />
+      <Button fx:id="btnC" layoutX="268.0" layoutY="121.0" mnemonicParsing="false" onAction="#buttonClickedC" prefHeight="52.0" prefWidth="73.0" text="C" />
+      <Button fx:id="btnD" layoutX="350.0" layoutY="121.0" mnemonicParsing="false" onAction="#buttonClickedD" prefHeight="52.0" prefWidth="73.0" text="D" />
+      <Button fx:id="btnE" layoutX="38.0" layoutY="219.0" mnemonicParsing="false" onAction="#buttonClickedE" prefHeight="52.0" prefWidth="73.0" text="E" />
+      <Button fx:id="btnF" layoutX="118.0" layoutY="219.0" mnemonicParsing="false" onAction="#buttonClickedF" prefHeight="52.0" prefWidth="73.0" text="F" />
+      <Button fx:id="btnG" layoutX="195.0" layoutY="219.0" mnemonicParsing="false" onAction="#buttonClickedG" prefHeight="52.0" prefWidth="73.0" text="G" />
+      <Button fx:id="btnH" layoutX="276.0" layoutY="219.0" mnemonicParsing="false" onAction="#buttonClickedH" prefHeight="52.0" prefWidth="73.0" text="H" />
+      <Button fx:id="btnI" layoutX="356.0" layoutY="219.0" mnemonicParsing="false" onAction="#buttonClickedI" prefHeight="52.0" prefWidth="73.0" text="I" />
+      <Button fx:id="btnJ" layoutX="436.0" layoutY="219.0" mnemonicParsing="false" onAction="#buttonClickedJ" prefHeight="52.0" prefWidth="73.0" text="J" />
+      <Button fx:id="btnK" layoutX="38.0" layoutY="307.0" mnemonicParsing="false" onAction="#buttonClickedK" prefHeight="52.0" prefWidth="73.0" text="K" />
+      <Button fx:id="btnM" layoutX="195.0" layoutY="307.0" mnemonicParsing="false" onAction="#buttonClickedM" prefHeight="52.0" prefWidth="73.0" text="M" />
+      <Button fx:id="btnL" layoutX="118.0" layoutY="307.0" mnemonicParsing="false" onAction="#buttonClickedL" prefHeight="52.0" prefWidth="73.0" text="L" />
+      <Button fx:id="btnN" layoutX="276.0" layoutY="307.0" mnemonicParsing="false" onAction="#buttonClickedN" prefHeight="52.0" prefWidth="73.0" text="N" />
+      <Button fx:id="btnO" layoutX="357.0" layoutY="307.0" mnemonicParsing="false" onAction="#buttonClickedO" prefHeight="52.0" prefWidth="73.0" text="O" />
+      <Button fx:id="btnU" layoutX="356.0" layoutY="397.0" mnemonicParsing="false" onAction="#buttonClickedU" prefHeight="52.0" prefWidth="73.0" text="U" />
+      <Button fx:id="btnQ" layoutX="38.0" layoutY="397.0" mnemonicParsing="false" onAction="#buttonClickedQ" prefHeight="52.0" prefWidth="73.0" text="Q" />
+      <Button fx:id="btnR" layoutX="119.0" layoutY="397.0" mnemonicParsing="false" onAction="#buttonClickedR" prefHeight="52.0" prefWidth="73.0" text="R" />
+      <Button fx:id="btnS" layoutX="195.0" layoutY="397.0" mnemonicParsing="false" onAction="#buttonClickedS" prefHeight="52.0" prefWidth="73.0" text="S" />
+      <Button fx:id="btnP" layoutX="436.0" layoutY="307.0" mnemonicParsing="false" onAction="#buttonClickedP" prefHeight="52.0" prefWidth="73.0" text="P" />
+      <Button fx:id="btnX" layoutX="191.0" layoutY="489.0" mnemonicParsing="false" onAction="#buttonClickedX" prefHeight="52.0" prefWidth="73.0" text="X" />
+      <Button fx:id="btnT" layoutX="276.0" layoutY="397.0" mnemonicParsing="false" onAction="#buttonClickedT" prefHeight="52.0" prefWidth="73.0" text="T" />
+      <Button fx:id="btnW" layoutX="114.0" layoutY="489.0" mnemonicParsing="false" onAction="#buttonClickedW" prefHeight="52.0" prefWidth="73.0" text="W" />
+      <Button fx:id="btnZ" layoutX="350.0" layoutY="489.0" mnemonicParsing="false" onAction="#buttonClickedZ" prefHeight="52.0" prefWidth="73.0" text="Z" />
+      <Button fx:id="btnY" layoutX="268.0" layoutY="489.0" mnemonicParsing="false" onAction="#buttonClickedY" prefHeight="52.0" prefWidth="73.0" text="Y" />
+      <Button fx:id="btnV" layoutX="436.0" layoutY="397.0" mnemonicParsing="false" onAction="#buttonClickedV" prefHeight="52.0" prefWidth="73.0" text="V" />
+      <Label fx:id="labelA" layoutX="146.0" layoutY="180.0" text="9" />
+      <Label fx:id="labelB" layoutX="223.0" layoutY="180.0" text="2" />
+      <Label fx:id="labelC" layoutX="300.0" layoutY="180.0" text="2" />
+      <Label fx:id="labelD" layoutX="376.0" layoutY="180.0" prefHeight="21.0" prefWidth="17.0" text="4" />
+      <Label fx:id="labelE" layoutX="66.0" layoutY="277.0" text="12" />
+      <Label fx:id="labelF" layoutX="146.0" layoutY="277.0" text="2" />
+      <Label fx:id="labelG" layoutX="228.0" layoutY="277.0" text="3" />
+      <Label fx:id="labelH" layoutX="308.0" layoutY="277.0" text="2" />
+      <Label fx:id="labelI" layoutX="388.0" layoutY="277.0" text="8" />
+      <Label fx:id="labelJ" layoutX="468.0" layoutY="277.0" text="1" />
+      <Label fx:id="labelK" layoutX="70.0" layoutY="368.0" text="1" />
+      <Label fx:id="labelL" layoutX="151.0" layoutY="365.0" text="4" />
+      <Label fx:id="labelM" layoutX="227.0" layoutY="365.0" text="2" />
+      <Label fx:id="labelN" layoutX="308.0" layoutY="368.0" text="6" />
+      <Label fx:id="labelO" layoutX="388.0" layoutY="368.0" text="8" />
+      <Label fx:id="labelP" layoutX="464.0" layoutY="365.0" text="2" />
+      <Label fx:id="labelQ" layoutX="70.0" layoutY="458.0" text="1" />
+      <Label fx:id="labelR" layoutX="150.0" layoutY="458.0" text="6" />
+      <Label fx:id="labelS" layoutX="227.0" layoutY="457.0" text="4" />
+      <Label fx:id="labelT" layoutX="308.0" layoutY="458.0" text="6" />
+      <Label fx:id="labelU" layoutX="388.0" layoutY="458.0" text="4" />
+      <Label fx:id="labelV" layoutX="464.0" layoutY="458.0" text="2" />
+      <Label fx:id="labelW" layoutX="147.0" layoutY="550.0" text="2" />
+      <Label fx:id="labelX" layoutX="227.0" layoutY="550.0" text="1" />
+      <Label fx:id="labelY" layoutX="300.0" layoutY="550.0" text="2" />
+      <Label fx:id="labelZ" layoutX="382.0" layoutY="550.0" text="1" />
+      <Button layoutX="206.0" layoutY="592.0" mnemonicParsing="false" onAction="#SubmitClicked" prefHeight="52.0" prefWidth="135.0" text="SUBMIT" />
+      <Label layoutX="23.0" layoutY="650.0" prefHeight="39.0" prefWidth="114.0" text="Previous Word:" />
+      <Hyperlink layoutX="14.0" layoutY="708.0" onAction="#RulesClicked" prefHeight="29.0" prefWidth="54.0" text="Rules?" />
+      <Label fx:id="previousWord" layoutX="132.0" layoutY="655.0" prefHeight="29.0" prefWidth="380.0" />
+      <Label layoutX="33.0" layoutY="29.0" prefHeight="29.0" prefWidth="94.0" text="Total Points:" />
+      <Label fx:id="totalPoints" layoutX="132.0" layoutY="29.0" prefHeight="29.0" prefWidth="42.0" text="0" />
+      <Label fx:id="error" layoutX="97.0" layoutY="704.0" prefHeight="29.0" prefWidth="427.0" textFill="#eb1515" />
+      <TextField fx:id="currentWord" layoutX="171.0" layoutY="72.0" onKeyPressed="#keyPressed" />
+   </children>
+</AnchorPane>

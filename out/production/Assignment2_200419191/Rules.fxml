@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="634.0" prefWidth="509.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RulesController">
+   <children>
+      <Label layoutX="71.0" layoutY="89.0" prefHeight="65.0" prefWidth="368.0" text="FOLLOWING ARE THE RULES:">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="71.0" layoutY="154.0" prefHeight="65.0" prefWidth="368.0" text="*  8 letters maximum ">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="71.0" layoutY="231.0" prefHeight="65.0" prefWidth="368.0" text="*  Cannot have duplicate words  ">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="71.0" layoutY="317.0" prefHeight="65.0" prefWidth="382.0" text="* Two letters minimum and one should be vowel">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
